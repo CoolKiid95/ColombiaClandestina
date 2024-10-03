@@ -64,7 +64,7 @@ main{
     border-radius: 20px;
     }
 .form-in {
-    margin-top: 150px;
+    margin-top: 80px;
     height: 445px;
     width: 948px;
     border-left: solid 5px #FFA629;
@@ -81,4 +81,17 @@ main{
     width: 900px;
     background-color: #000;
     color: #FFA629;
+}
+.asiste{
+    margin-top: 80px;
+    background-color: #EBCF9F;
+    border: solid 5px #000;
+    border-radius: 40px;
+    width: 436px;
+    display: flex;
+    justify-content: center;
+    font-family: "Raleway", sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 25px;
 }
