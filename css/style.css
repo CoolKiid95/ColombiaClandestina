@@ -52,3 +52,33 @@ main{
     width: 190px;  
     box-shadow:  4px 4px 2px rgba(0, 0, 0, 0.392);    
 }
+.form-page{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.form-back{
+    background: rgb(42,103,126);
+    background: linear-gradient(0deg, rgba(42,103,126,1) 0%, rgba(42,103,126,1) 50%, rgba(17,56,71,1) 100%);    
+    height: 707px;
+    width: 1232px;
+    border-radius: 20px;
+    }
+.form-in {
+    margin-top: 150px;
+    height: 445px;
+    width: 948px;
+    border-left: solid 5px #FFA629;
+    border-right: solid 5px #FFA629;
+}
+.input-size {
+    width: 900px;
+}
+.input-size-comment{
+    height: 80px;
+    width: 900px;
+}
+.button-enviar{
+    width: 900px;
+    background-color: #000;
+    color: #FFA629;
+}
