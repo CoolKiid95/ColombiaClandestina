@@ -4,7 +4,7 @@
  }
 .background {
     background: linear-gradient(90deg, #000 0%, rgba(37,82,99,1) 50%, #000 100%);
-    border-bottom: solid 5px #FFA629;
+    border-bottom: solid 5px hsl(35, 100%, 58%);
 }
 .linea{
     border-left: solid 5px var(--primary-color);
@@ -16,16 +16,19 @@ nav {
     font-size: 20px;
     
 }
-div a{
-    text-decoration: none;  
+.ul-color {
+    list-style: none;
+    text-decoration: none;
     color: #EBCF9F;
 }
+
 main{
     background-color: #000;
 }
 .text-shadow {
     text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.392);         
 }
+
 
 .colclan {
     transform: translateY(-450px);
