@@ -73,15 +73,9 @@ main{
     border-left: solid 5px #FFA629;
     border-right: solid 5px #FFA629;
 }
-.input-size {
-    width: 900px;
-}
-.input-size-comment{
-    height: 80px;
-    width: 900px;
-}
+
 .button-enviar{
-    width: 900px;
+    width: 300px;
     background-color: #000;
     color: #FFA629;
 }
@@ -97,4 +91,16 @@ main{
     font-style: italic;
     font-weight: 600;
     font-size: 25px;
+}
+@media (max-width: 576px ) {
+    .form-back {
+        width: 400px;
+    }
+    .form-in{
+        width: 400px;
+    }
+    .asiste {
+        width: 400px;
+        text-align: center;
+    }
 }
