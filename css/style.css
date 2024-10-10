@@ -16,6 +16,23 @@ nav {
     font-size: 20px;
     
 }
+@keyframes bounce{
+    0%{
+        transform: translate(0);
+    }
+    50%{
+        transform: translateY(20px)
+        }
+    75%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+    }
+.bouncy:hover {
+    animation: bounce .5s ease;
+}
 .ul-color {
     list-style: none;
     text-decoration: none;
