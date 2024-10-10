@@ -1,0 +1,6 @@
+iframe {
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    height: 100%; /* Altura personalizada */
+    border: none; /* Sin bordes */
+    overflow: hidden;
+}
