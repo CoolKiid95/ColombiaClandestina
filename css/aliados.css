@@ -1,0 +1,39 @@
+body {
+    font-family: 'raleway', sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.aliados h1 {
+    font-size: 10vw;
+    color: #f1c40f; 
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    font-family: raleway;
+
+}
+
+.aliados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logos{
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width: 800px) {
+    .aliados {
+        flex-direction: row;
+        gap: 50px;
+    }
+    .logoss {
+        flex-direction: row;
+        gap: 50px;
+    }
+}

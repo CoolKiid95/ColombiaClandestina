@@ -1,0 +1,17 @@
+.titles{
+
+    
+   display: flex;
+    height: 100px;
+     background: linear-gradient(90deg, #000 0%, rgba(37,82,99,1) 50%, #000 100%);
+     font-family: raleway; color: #d68d0b;
+     justify-content: center;
+     
+           
+     
+}
+
+
+
+
+

@@ -1,0 +1,266 @@
+#nosotros{
+    border-bottom:#FFA500 solid 4px;
+    font-family: "pontano sans";
+    font-weight: 600;
+}
+
+
+
+.aliados {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    
+}
+
+.aliados #logos-aliados {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: 100%; 
+    max-width: 600px; 
+    padding: 20px; 
+    padding-left: 20px;
+}
+
+h1  {
+    color: #FFA500;
+    font-size: 7em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    font-family: raleway;
+    text-align: center;
+    padding-right: 20px;
+}
+
+.quienes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.parrafo {
+    flex: 1 1 45%;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.parrafo p {
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .quienes {
+        flex-direction: column;
+    }
+
+    .parrafo {
+        flex: 1 1 100%;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8em;
+    }
+
+    .parrafo {
+        font-size: 1em;
+    }
+}
+
+
+.aliados {
+    text-align: center;
+    padding: 2rem;
+    background-color: white;
+     /* Borde dorado  border-bottom: 4px solid #FFA500;*/
+}
+
+.aliados h1 {
+    color: #FFA500;
+    font-size: 5rem; /* Ajusta el tamaño del texto dependiendo del tamaño de pantalla */
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+
+.aliados div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    gap: 1.5rem; 
+}
+
+.main{ 
+
+    padding: 0 10rem;
+
+
+}
+
+
+.logo {
+    flex: 1 1 150px; 
+    max-width: 200px; 
+}
+
+.logoss {
+    width: 100%; 
+    height: auto;
+    border-radius: 50%; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+#logos-aliados{
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+    .aliados h1 {
+        font-size: 2rem; 
+    }
+
+    .logo {
+        flex: 1 1 120px; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    .aliados h1 {
+        font-size: 1.8rem;
+    }
+
+    .logo {
+        flex: 1 1 100px; 
+    }
+}
+
+footer {
+    background:  linear-gradient(90deg, #000 0%, rgba(37,82,99,1) 50%, #000 100%);; 
+    color: #FFA500; 
+    padding: 2rem;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border-top: 4px solid #FFA500;
+}
+
+footer h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #FFA500; 
+    font-weight: bold;
+}
+
+footer .informacion {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.social-media {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+
+.derechos{
+
+    text-align: end;
+    margin-right: 200px;
+}
+
+.social-media a {
+    display:flex;
+    align-items: center;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #FFA500;
+    font-size: 1.2rem;
+    
+}
+
+.social-media i {
+    margin-right: 5px;
+    font-size: 1.5rem;
+    
+
+}
+
+.phone {
+    margin: 1rem 0;
+}
+
+.phone a {
+    text-decoration: none;
+    color: #FFA500;
+    font-size: 1.2rem;
+    align-items: normal;
+    
+}
+
+.phone i {
+    margin-right: 5px;
+    font-size: 1.5rem;
+}
+
+.derechos {
+    margin-top: 1rem;
+    color: rgba(255, 255, 255, 0.7); 
+}
+
+.footer-rights p {
+    font-size: 0.9rem;
+}
+
+
+@media (max-width: 768px) {
+    footer {
+        padding: 1.5rem;
+    }
+
+    footer h2 {
+        font-size: 1.8rem;
+    }
+
+    .social-media a, .phone a {
+        font-size: 1rem;
+    }
+
+    .social-media i, .phone i {
+        font-size: 1.2rem;
+    }
+
+    .footer-rights p {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    footer h2 {
+        font-size: 1.5rem;
+    }
+
+    .social-media a, .phone a {
+        font-size: 0.9rem;
+    }
+
+    .footer-rights p {
+        font-size: 0.7rem;
+    }
+}
+
