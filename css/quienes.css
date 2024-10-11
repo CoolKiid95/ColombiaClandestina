@@ -24,9 +24,9 @@
     padding-left: 20px;
 }
 
-h1  {
+.title-nosotros{
     color: #FFA500;
-    font-size: 7em;
+    font-size: 3.75em;
     font-weight: bold;
     margin-bottom: 20px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
@@ -61,13 +61,13 @@ h1  {
         flex: 1 1 100%;
     }
 
-    h1 {
+    .title-nosotros{
         font-size: 2em;
     }
 }
 
 @media (max-width: 768px) {
-    h1 {
+    .title-nosotros {
         font-size: 1.8em;
     }
 
@@ -84,7 +84,7 @@ h1  {
      /* Borde dorado  border-bottom: 4px solid #FFA500;*/
 }
 
-.aliados h1 {
+.aliados .title-nosotros {
     color: #FFA500;
     font-size: 5rem; /* Ajusta el tamaño del texto dependiendo del tamaño de pantalla */
     font-weight: bold;
@@ -126,7 +126,7 @@ h1  {
 
 
 @media (max-width: 768px) {
-    .aliados h1 {
+    .aliados .title-nosotros {
         font-size: 2rem; 
     }
 
@@ -135,17 +135,14 @@ h1  {
     }
 }
 
-
 @media (max-width: 480px) {
-    .aliados h1 {
+    .aliados .title-nosotros {
         font-size: 1.8rem;
     }
-
     .logo {
         flex: 1 1 100px; 
     }
 }
-
 footer {
     background:  linear-gradient(90deg, #000 0%, rgba(37,82,99,1) 50%, #000 100%);; 
     color: #FFA500; 
