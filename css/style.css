@@ -21,7 +21,7 @@ nav {
         transform: translate(0);
     }
     50%{
-        transform: translateY(20px)
+        transform: translateY(10px)
         }
     75%{
         transform: translateY(-10px);
@@ -60,6 +60,9 @@ main{
 @media (max-width: 576px) {
     .c-image {
       width: 100%;
+    }
+    .phone {
+        display: none;
     }
   }
 @media (max-width: 768px) {
